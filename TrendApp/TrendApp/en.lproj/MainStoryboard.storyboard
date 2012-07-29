@@ -24,7 +24,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Weekly" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Weekly" image="weekly.png" id="7"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="361" y="-894"/>
@@ -48,7 +48,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hall of Fame" image="first" id="UkX-6z-C00"/>
+                    <tabBarItem key="tabBarItem" title="Hall of Fame" image="trophy.png" id="UkX-6z-C00"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1162" y="53"/>
@@ -72,7 +72,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Timeless" image="first" id="Pos-72-ZiT"/>
+                    <tabBarItem key="tabBarItem" title="Timeless" image="infinite.png" id="Pos-72-ZiT"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1126" y="-695"/>
@@ -96,7 +96,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Monthly" image="first" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Monthly" image="month.png" id="6"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="509" y="1018"/>
@@ -120,7 +120,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="first" id="ML5-wA-it4"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="search.png" id="ML5-wA-it4"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1165" y="849"/>
@@ -149,7 +149,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
+        <image name="infinite.png" width="32" height="22"/>
+        <image name="month.png" width="23" height="25"/>
+        <image name="search.png" width="24" height="24"/>
+        <image name="trophy.png" width="24" height="24"/>
+        <image name="weekly.png" width="30" height="24"/>
     </resources>
     <classes>
         <class className="HallOfFameViewController" superclassName="UIViewController">
