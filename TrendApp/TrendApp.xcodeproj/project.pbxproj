@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B544CC015C4AACA003E14DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B544CBF15C4AACA003E14DC /* UIKit.framework */; };
+		4B544CC215C4AACA003E14DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B544CC115C4AACA003E14DC /* Foundation.framework */; };
+		4B544CC415C4AACA003E14DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B544CC315C4AACA003E14DC /* CoreGraphics.framework */; };
+		4B544CCA15C4AACA003E14DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B544CC815C4AACA003E14DC /* InfoPlist.strings */; };
+		4B544CCC15C4AACA003E14DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CCB15C4AACA003E14DC /* main.m */; };
+		4B544CD015C4AACA003E14DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CCF15C4AACA003E14DC /* AppDelegate.m */; };
+		4B544CD315C4AACA003E14DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B544CD115C4AACA003E14DC /* MainStoryboard.storyboard */; };
+		4B544CD615C4AACA003E14DC /* WeeklyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CD515C4AACA003E14DC /* WeeklyViewController.m */; };
+		4B544CD815C4AACA003E14DC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B544CD715C4AACA003E14DC /* first.png */; };
+		4B544CDA15C4AACA003E14DC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B544CD915C4AACA003E14DC /* first@2x.png */; };
+		4B544CDD15C4AACA003E14DC /* MonthlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CDC15C4AACA003E14DC /* MonthlyViewController.m */; };
+		4B544CDF15C4AACA003E14DC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B544CDE15C4AACA003E14DC /* second.png */; };
+		4B544CE115C4AACA003E14DC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B544CE015C4AACA003E14DC /* second@2x.png */; };
+		4B544CEE15C4AB4F003E14DC /* TimelessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CED15C4AB4F003E14DC /* TimelessViewController.m */; };
+		4B544CF115C4AB64003E14DC /* HallOfFameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CF015C4AB64003E14DC /* HallOfFameViewController.m */; };
+		4B544CF415C4AB82003E14DC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B544CF315C4AB82003E14DC /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B544CBB15C4AACA003E14DC /* TrendApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B544CBF15C4AACA003E14DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B544CC115C4AACA003E14DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B544CC315C4AACA003E14DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B544CC715C4AACA003E14DC /* TrendApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrendApp-Info.plist"; sourceTree = "<group>"; };
+		4B544CC915C4AACA003E14DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B544CCB15C4AACA003E14DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B544CCD15C4AACA003E14DC /* TrendApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrendApp-Prefix.pch"; sourceTree = "<group>"; };
+		4B544CCE15C4AACA003E14DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B544CCF15C4AACA003E14DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B544CD215C4AACA003E14DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4B544CD415C4AACA003E14DC /* WeeklyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WeeklyViewController.h; path = TrendApp/WeeklyViewController.h; sourceTree = "<group>"; };
+		4B544CD515C4AACA003E14DC /* WeeklyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WeeklyViewController.m; path = TrendApp/WeeklyViewController.m; sourceTree = "<group>"; };
+		4B544CD715C4AACA003E14DC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4B544CD915C4AACA003E14DC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4B544CDB15C4AACA003E14DC /* MonthlyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MonthlyViewController.h; path = TrendApp/MonthlyViewController.h; sourceTree = "<group>"; };
+		4B544CDC15C4AACA003E14DC /* MonthlyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MonthlyViewController.m; path = TrendApp/MonthlyViewController.m; sourceTree = "<group>"; };
+		4B544CDE15C4AACA003E14DC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4B544CE015C4AACA003E14DC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4B544CEC15C4AB4F003E14DC /* TimelessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelessViewController.h; sourceTree = "<group>"; };
+		4B544CED15C4AB4F003E14DC /* TimelessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelessViewController.m; sourceTree = "<group>"; };
+		4B544CEF15C4AB64003E14DC /* HallOfFameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallOfFameViewController.h; sourceTree = "<group>"; };
+		4B544CF015C4AB64003E14DC /* HallOfFameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallOfFameViewController.m; sourceTree = "<group>"; };
+		4B544CF215C4AB82003E14DC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4B544CF315C4AB82003E14DC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B544CB815C4AACA003E14DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B544CC015C4AACA003E14DC /* UIKit.framework in Frameworks */,
+				4B544CC215C4AACA003E14DC /* Foundation.framework in Frameworks */,
+				4B544CC415C4AACA003E14DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B544CB015C4AACA003E14DC = {
+			isa = PBXGroup;
+			children = (
+				4B544CEB15C4AAF1003E14DC /* Search */,
+				4B544CEA15C4AAEB003E14DC /* Hall of Fame */,
+				4B544CE915C4AAE4003E14DC /* Timeless */,
+				4B544CE815C4AADF003E14DC /* Monthly */,
+				4B544CE715C4AAD7003E14DC /* Weekly */,
+				4B544CC515C4AACA003E14DC /* TrendApp */,
+				4B544CBE15C4AACA003E14DC /* Frameworks */,
+				4B544CBC15C4AACA003E14DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B544CBC15C4AACA003E14DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CBB15C4AACA003E14DC /* TrendApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B544CBE15C4AACA003E14DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CBF15C4AACA003E14DC /* UIKit.framework */,
+				4B544CC115C4AACA003E14DC /* Foundation.framework */,
+				4B544CC315C4AACA003E14DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B544CC515C4AACA003E14DC /* TrendApp */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CCE15C4AACA003E14DC /* AppDelegate.h */,
+				4B544CCF15C4AACA003E14DC /* AppDelegate.m */,
+				4B544CD115C4AACA003E14DC /* MainStoryboard.storyboard */,
+				4B544CD715C4AACA003E14DC /* first.png */,
+				4B544CD915C4AACA003E14DC /* first@2x.png */,
+				4B544CDE15C4AACA003E14DC /* second.png */,
+				4B544CE015C4AACA003E14DC /* second@2x.png */,
+				4B544CC615C4AACA003E14DC /* Supporting Files */,
+			);
+			path = TrendApp;
+			sourceTree = "<group>";
+		};
+		4B544CC615C4AACA003E14DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CC715C4AACA003E14DC /* TrendApp-Info.plist */,
+				4B544CC815C4AACA003E14DC /* InfoPlist.strings */,
+				4B544CCB15C4AACA003E14DC /* main.m */,
+				4B544CCD15C4AACA003E14DC /* TrendApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B544CE715C4AAD7003E14DC /* Weekly */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CD415C4AACA003E14DC /* WeeklyViewController.h */,
+				4B544CD515C4AACA003E14DC /* WeeklyViewController.m */,
+			);
+			name = Weekly;
+			sourceTree = "<group>";
+		};
+		4B544CE815C4AADF003E14DC /* Monthly */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CDB15C4AACA003E14DC /* MonthlyViewController.h */,
+				4B544CDC15C4AACA003E14DC /* MonthlyViewController.m */,
+			);
+			name = Monthly;
+			sourceTree = "<group>";
+		};
+		4B544CE915C4AAE4003E14DC /* Timeless */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CEC15C4AB4F003E14DC /* TimelessViewController.h */,
+				4B544CED15C4AB4F003E14DC /* TimelessViewController.m */,
+			);
+			name = Timeless;
+			sourceTree = "<group>";
+		};
+		4B544CEA15C4AAEB003E14DC /* Hall of Fame */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CEF15C4AB64003E14DC /* HallOfFameViewController.h */,
+				4B544CF015C4AB64003E14DC /* HallOfFameViewController.m */,
+			);
+			name = "Hall of Fame";
+			sourceTree = "<group>";
+		};
+		4B544CEB15C4AAF1003E14DC /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4B544CF215C4AB82003E14DC /* SearchViewController.h */,
+				4B544CF315C4AB82003E14DC /* SearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B544CBA15C4AACA003E14DC /* TrendApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B544CE415C4AACA003E14DC /* Build configuration list for PBXNativeTarget "TrendApp" */;
+			buildPhases = (
+				4B544CB715C4AACA003E14DC /* Sources */,
+				4B544CB815C4AACA003E14DC /* Frameworks */,
+				4B544CB915C4AACA003E14DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendApp;
+			productName = TrendApp;
+			productReference = 4B544CBB15C4AACA003E14DC /* TrendApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B544CB215C4AACA003E14DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Andrew Joye";
+			};
+			buildConfigurationList = 4B544CB515C4AACA003E14DC /* Build configuration list for PBXProject "TrendApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B544CB015C4AACA003E14DC;
+			productRefGroup = 4B544CBC15C4AACA003E14DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B544CBA15C4AACA003E14DC /* TrendApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B544CB915C4AACA003E14DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B544CCA15C4AACA003E14DC /* InfoPlist.strings in Resources */,
+				4B544CD315C4AACA003E14DC /* MainStoryboard.storyboard in Resources */,
+				4B544CD815C4AACA003E14DC /* first.png in Resources */,
+				4B544CDA15C4AACA003E14DC /* first@2x.png in Resources */,
+				4B544CDF15C4AACA003E14DC /* second.png in Resources */,
+				4B544CE115C4AACA003E14DC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B544CB715C4AACA003E14DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B544CCC15C4AACA003E14DC /* main.m in Sources */,
+				4B544CD015C4AACA003E14DC /* AppDelegate.m in Sources */,
+				4B544CD615C4AACA003E14DC /* WeeklyViewController.m in Sources */,
+				4B544CDD15C4AACA003E14DC /* MonthlyViewController.m in Sources */,
+				4B544CEE15C4AB4F003E14DC /* TimelessViewController.m in Sources */,
+				4B544CF115C4AB64003E14DC /* HallOfFameViewController.m in Sources */,
+				4B544CF415C4AB82003E14DC /* SearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B544CC815C4AACA003E14DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B544CC915C4AACA003E14DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B544CD115C4AACA003E14DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B544CD215C4AACA003E14DC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B544CE215C4AACA003E14DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B544CE315C4AACA003E14DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B544CE515C4AACA003E14DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrendApp/TrendApp-Prefix.pch";
+				INFOPLIST_FILE = "TrendApp/TrendApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B544CE615C4AACA003E14DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrendApp/TrendApp-Prefix.pch";
+				INFOPLIST_FILE = "TrendApp/TrendApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B544CB515C4AACA003E14DC /* Build configuration list for PBXProject "TrendApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B544CE215C4AACA003E14DC /* Debug */,
+				4B544CE315C4AACA003E14DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B544CE415C4AACA003E14DC /* Build configuration list for PBXNativeTarget "TrendApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B544CE515C4AACA003E14DC /* Debug */,
+				4B544CE615C4AACA003E14DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B544CB215C4AACA003E14DC /* Project object */;
+}
